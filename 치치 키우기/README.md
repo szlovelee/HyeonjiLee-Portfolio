@@ -98,9 +98,6 @@ public class SystemDataTest : MonoBehaviour, ISystemDataReader { ... }
 public class UserDataTest : MonoBehaviour, ISystemDataReader, IUserDataUpdater { ... }
 ```
 
-### 6. 동적 말풍선 레이아웃
-
-`ChatMessageBox`는 텍스트 길이에 따라 말풍선 높이를 런타임에 자동 조정한다. `LayoutRebuilder.ForceRebuildLayoutImmediate()`로 TextMeshPro 레이아웃을 강제 갱신한 뒤 `sizeDelta`를 재계산하여, 짧은 메시지와 긴 메시지 모두 정확한 UI를 유지한다.
 
 ---
 
